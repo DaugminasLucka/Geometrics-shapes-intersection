@@ -1,0 +1,24 @@
+{
+    "data": {
+        "type": "processedInters",
+        "attributes": {
+            "numberOfProcessedInters": 1,
+            "processedInters": [
+                {
+                    "id": 2,
+                    "lineCoordinateX": 5,
+                    "lineCoordinateY": 7,
+                    "squareCoordinateX": 5,
+                    "squareCoordinateY": 7,
+                    "squareWidth": 7,
+                    "squareHeight": 9,
+                    "isIntersecting": false,
+                    "intersectionPointOne": null,
+                    "intersectionPointTwo": null,
+                    "intersProcDate": "2018-06-04T22:14:23.433+0000"
+                }
+            ]
+        }
+    },
+    "errors": null
+}

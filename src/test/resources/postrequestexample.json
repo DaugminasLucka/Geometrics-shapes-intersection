@@ -1,0 +1,17 @@
+{
+	"data": {
+		"type": "coordinates",
+		"attributes": {
+			"line": {
+				"coordinateX": 5,
+				"coordinateY": 7
+			},
+			"square": {
+				"coordinateX": 5,
+				"coordinateY": 7,
+				"height": 9,
+				"width": 7
+			}	
+		}
+	}
+}

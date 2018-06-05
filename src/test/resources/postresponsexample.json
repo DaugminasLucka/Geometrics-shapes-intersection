@@ -1,0 +1,25 @@
+{
+    "data": {
+        "type": "intersections",
+        "attributes": {
+            "interShapes": {
+                "line": {
+                    "coordinateX": 5,
+                    "coordinateY": 7
+                },
+                "square": {
+                    "coordinateX": 5,
+                    "coordinateY": 7,
+                    "width": 7,
+                    "height": 9
+                }
+            },
+            "isIntersecting": false,
+            "interPoints": {
+                "intersectionPointOne": null,
+                "intersectionPointTwo": null
+            }
+        }
+    },
+    "errors": null
+}
