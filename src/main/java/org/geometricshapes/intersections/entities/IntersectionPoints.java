@@ -2,23 +2,28 @@ package org.geometricshapes.intersections.entities;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+/**
+ * 
+ * @author Mindaugas Lucka
+ *
+ */
 public class IntersectionPoints {
 	
-	private Integer intersectionPointOne;
-	private Integer intersectionPointTwo;
+	private CoordinatePoint intersectionPointOne;
+	private CoordinatePoint intersectionPointTwo;
 	
-	public Integer getIntersectionPointOne() {
+	public CoordinatePoint getIntersectionPointOne() {
 		return intersectionPointOne;
 	}
 	@JsonProperty(required=false)
-	public void setIntersectionPointOne(Integer intersectionPointOne) {
+	public void setIntersectionPointOne(CoordinatePoint intersectionPointOne) {
 		this.intersectionPointOne = intersectionPointOne;
 	}
-	public Integer getIntersectionPointTwo() {
+	public CoordinatePoint getIntersectionPointTwo() {
 		return intersectionPointTwo;
 	}
 	@JsonProperty(required=false)
-	public void setIntersectionPointTwo(Integer intersectionPointTwo) {
+	public void setIntersectionPointTwo(CoordinatePoint intersectionPointTwo) {
 		this.intersectionPointTwo = intersectionPointTwo;
 	}
 	

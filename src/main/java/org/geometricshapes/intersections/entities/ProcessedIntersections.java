@@ -2,6 +2,8 @@ package org.geometricshapes.intersections.entities;
 
 import java.util.List;
 
+import org.geometricshapes.intersections.persistence.SquareAndLineIntersections;
+
 /**
  * 
  * @author Mindaugas Lucka

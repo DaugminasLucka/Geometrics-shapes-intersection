@@ -6,6 +6,7 @@ import javax.servlet.http.HttpServletResponse;
 import org.geometricshapes.intersections.entities.IntersectingShapesRequest;
 import org.geometricshapes.intersections.entities.ProcessedIntersectionsResponse;
 import org.geometricshapes.intersections.entities.ShapesIntersectionsResponse;
+import org.geometricshapes.intersections.services.ShapesIntersectionsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

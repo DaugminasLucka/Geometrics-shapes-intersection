@@ -8,21 +8,21 @@ import com.fasterxml.jackson.annotation.JsonProperty;
  *
  */
 public class ShapeCoordinates {
-	private Integer coordinateX;
-	private Integer coordinateY;
+	private CoordinatePoint pointOne;
+	private CoordinatePoint pointTwo;
 	
-	public Integer getCoordinateX() {
-		return coordinateX;
+	public CoordinatePoint getPointOne() {
+		return pointOne;
 	}
 	@JsonProperty(required=true)
-	public void setCoordinateX(Integer xCoordinate) {
-		this.coordinateX = xCoordinate;
+	public void setPointOne(CoordinatePoint pointOne) {
+		this.pointOne = pointOne;
 	}
-	public Integer getCoordinateY() {
-		return coordinateY;
+	public CoordinatePoint getPointTwo() {
+		return pointTwo;
 	}
 	@JsonProperty(required=true)
-	public void setCoordinateY(Integer coordinateY) {
-		this.coordinateY = coordinateY;
+	public void setPointTwo(CoordinatePoint pointTwo) {
+		this.pointTwo = pointTwo;
 	}
 }

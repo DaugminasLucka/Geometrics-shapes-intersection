@@ -2,22 +2,16 @@
     "data": {
         "type": "intersections",
         "attributes": {
-            "interShapes": {
-                "line": {
-                    "coordinateX": 5,
-                    "coordinateY": 7
-                },
-                "square": {
-                    "coordinateX": 5,
-                    "coordinateY": 7,
-                    "width": 7,
-                    "height": 9
-                }
-            },
-            "isIntersecting": false,
+            "isIntersecting": true,
             "interPoints": {
-                "intersectionPointOne": null,
-                "intersectionPointTwo": null
+                "intersectionPointOne": {
+                    "coordinateX": -23,
+                    "coordinateY": 43
+                },
+                "intersectionPointTwo": {
+                    "coordinateX": -9,
+                    "coordinateY": 29
+                }
             }
         }
     },

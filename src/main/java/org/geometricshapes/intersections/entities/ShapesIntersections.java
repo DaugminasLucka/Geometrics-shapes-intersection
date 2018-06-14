@@ -9,17 +9,8 @@ import com.fasterxml.jackson.annotation.JsonProperty;
  */
 public class ShapesIntersections {
 
-	private IntersectingShapes interShapes;
 	private Boolean isIntersecting;
 	private IntersectionPoints interPoints;
-	
-	public IntersectingShapes getInterShapes() {
-		return interShapes;
-	}
-	@JsonProperty(required=true)
-	public void setInterShapes(IntersectingShapes interShapes) {
-		this.interShapes = interShapes;
-	}
 	
 	public Boolean getIsIntersecting() {
 		return isIntersecting;

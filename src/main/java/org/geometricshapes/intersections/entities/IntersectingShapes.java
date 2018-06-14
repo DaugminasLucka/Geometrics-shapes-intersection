@@ -9,7 +9,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
  */
 public class IntersectingShapes {
 	private ShapeCoordinates line;
-	private SquareCoordinates square;
+	private ShapeCoordinates square;
 	
 	public ShapeCoordinates getLine() {
 		return line;
@@ -18,11 +18,11 @@ public class IntersectingShapes {
 	public void setLine(ShapeCoordinates line) {
 		this.line = line;
 	}
-	public SquareCoordinates getSquare() {
+	public ShapeCoordinates getSquare() {
 		return square;
 	}
 	@JsonProperty(required=true)
-	public void setSquare(SquareCoordinates square) {
+	public void setSquare(ShapeCoordinates square) {
 		this.square = square;
 	}
 }

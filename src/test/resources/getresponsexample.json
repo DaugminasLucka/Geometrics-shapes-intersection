@@ -2,20 +2,25 @@
     "data": {
         "type": "processedInters",
         "attributes": {
-            "numberOfProcessedInters": 1,
+            "numberOfProcessedInters": 2,
             "processedInters": [
                 {
                     "id": 2,
-                    "lineCoordinateX": 5,
-                    "lineCoordinateY": 7,
-                    "squareCoordinateX": 5,
-                    "squareCoordinateY": 7,
-                    "squareWidth": 7,
-                    "squareHeight": 9,
-                    "isIntersecting": false,
-                    "intersectionPointOne": null,
-                    "intersectionPointTwo": null,
-                    "intersProcDate": "2018-06-04T22:14:23.433+0000"
+                    "isIntersecting": true,
+                    "intersectPointOneCoordX": -49,
+                    "intersectPointOneCoordY": 69,
+                    "intersectPointTwoCoordX": -70,
+                    "intersectPointTwoCoordY": 90,
+                    "intersProcDate": "2018-06-14T16:01:22.064+0000"
+                },
+                {
+                    "id": 3,
+                    "isIntersecting": true,
+                    "intersectPointOneCoordX": -23,
+                    "intersectPointOneCoordY": 43,
+                    "intersectPointTwoCoordX": -9,
+                    "intersectPointTwoCoordY": 29,
+                    "intersProcDate": "2018-06-14T16:02:16.548+0000"
                 }
             ]
         }
